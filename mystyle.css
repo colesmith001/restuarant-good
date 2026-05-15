@@ -1,5 +1,5 @@
 Body{
-    background-color: beige;
+    background-color: rgb(151, 27, 6);
     font-family: arial;
 }
 a{
@@ -8,8 +8,8 @@ a{
 }
 
 .failing{
-    font-weight: bold;
-    color: red;
+    
+    
 }
 
 .dish-month-container{
@@ -22,6 +22,8 @@ a{
 }
 .dish-month-text{
     width: 50%;
+    color: yellow;
+   
 
 }
 
@@ -49,6 +51,9 @@ a{
     padding: 10px;
     text-align: center;
     background-color: aliceblue;
+}
+.input-control{
+    
 }
 
 
