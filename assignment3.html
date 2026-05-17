@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cole.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Payment Form</h1>
+        <form >
+            <fieldset>
+                <legend>Contact info</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname">
+                <label for="lname">Last name</label>
+                <input type="text" id="lname"><br/>
+            </fieldset>
+        </form>
+        <form >
+            <fieldset class="radio-group">
+                <legend>Payment method</legend>
+                <label for="card">Card</label>
+                <input type="radio" id="card" name="languages" value="card">
+                <label for="cash">Cash</label>
+                <input type="radio" id="cash" name="languages"  value="cash">
+                <label for="card">Check</label>
+                <input type="radio" id="Check" name="languages"  value="Check">
+            </fieldset>
+        </form>
+        <form>
+            <fieldset >
+                <legend>Card Number/Bank Info</legend>
+                <label for="message">Input here:</label>
+                <textarea id="message" rows="5" cols="30"></textarea><br/>
+            </fieldset>
+            <input type="submit" value="submit">
+
+
+
+        </form>
+    </div>
+</body>
+</html>

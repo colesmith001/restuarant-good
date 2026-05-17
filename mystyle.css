@@ -12,6 +12,20 @@ a{
     
 }
 
+
+
+/* menu */
+
+.site-init{
+    height: 150px;
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* main desktop view */
+
 .dish-month-container{
     display: flex;
     justify-content: space-between;
@@ -23,19 +37,29 @@ a{
 .dish-month-text{
     width: 50%;
     color: yellow;
-   
+}
+/* mobile view */
+@media(max-width:768px){
+    .dish-month-container{
+        flex-direction: column;
+    }
+    .dish-month-img{
+        width:100%;
+    }
+    .dish-month-text{
+        width: 100%;
+    }
+
 
 }
-
-
-
-.site-init{
-    height: 150px;
-}
-.navigation-bar{
+.all-dishes-container{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    gap: 10px;
+}
+.dish-container{
+    background-color: lightgray;
+    width: 30%;
 }
 
 .menu-table,td,th{

@@ -1,0 +1,32 @@
+body {
+    background-color: #75DBCD;
+}
+fieldset {
+    border-color: #F5CDA7;
+    
+    
+}
+.geno{
+    display: flex;
+    
+}
+.radio-group {
+    display:flex;
+    gap: 100px;
+    
+}
+label{
+    font-size: 20px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+legend{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
